@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Test if regular CSS works */
+.test-class {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
