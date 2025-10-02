@@ -6,15 +6,7 @@ import CreatePage from './pages/CreatePage'
 
 const App = () => {
   return (
-    <div>
-      {/* Test regular CSS */}
-      <div className="test-class">This should be red and bold</div>
-      
-      {/* Test Tailwind */}
-      <button className='bg-blue-500 text-white p-4 rounded-lg font-bold'>
-        Tailwind Test Button
-      </button>
-      
+    <div data-theme="forest">
       <Routes>
         <Route path='/' element={<HomePage/>}/>
         <Route path='/create' element={<CreatePage/>}/>
