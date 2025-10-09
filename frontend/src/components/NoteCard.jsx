@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router'
 import { PenSquareIcon, Trash2Icon } from 'lucide-react'
-import { formatDate } from '../../lib/utils'
+import { formatDate } from '../lib/utils'
 
 const NoteCard = ({note}) => {
   return (
