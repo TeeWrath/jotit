@@ -16,10 +16,10 @@ const CreatePage = () => {
     console.log(content)
 
     // validation
-    // if(!title.trim() || !content.trim()){
-    //   toast.error("All fields are required!!")
-    //   return
-    // }
+    if(!title.trim() || !content.trim()){
+      toast.error("All fields are required!!")
+      return
+    }
 
     setLoading(true);
     try {
